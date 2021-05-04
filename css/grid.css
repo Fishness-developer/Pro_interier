@@ -1,0 +1,10 @@
+.container {
+    max-width: 1170px;
+    margin: auto;
+    
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}

@@ -1,0 +1,103 @@
+/* Стили сетки */
+@import url(grid.css);
+
+/* Стили навигационного меню */
+@import url(navbar.css);
+
+/* Стили слайдера */
+@import url(slider.css);
+
+/* Стили контента */
+@import url(content.css);
+
+body{
+    background-color: #fff;
+    margin: 0;
+}
+
+h2 {
+font-family: 'Oswald', sans-serif;
+font-size: 120px;
+font-weight: 500;
+text-transform: uppercase;
+color: #fff;
+
+
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
+   
+}
+
+h4{
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    line-height: 30px;
+}
+
+h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    line-height: 40px;
+    z-index: 20;
+
+}
+
+a, li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.left {
+    float: left;
+}
+
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 100;  
+    color: #000;
+    line-height: 36px;
+}
+
+.top_20{
+margin-top: 20px;
+}
+
+.bottom_15{
+  margin-bottom: 15px;
+}
+
+.left_270{
+    margin-left: 270px;
+}
+
+
+
+

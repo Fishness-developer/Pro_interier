@@ -1,10 +1,19 @@
 .container {
     max-width: 1170px;
-    margin: auto;
+    margin: 0 auto;
+    
+}
+
+.container_small{
+    width: 345px;
     
 }
 *{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 
+}
+
+.offer{
+    width: 100%;
 }

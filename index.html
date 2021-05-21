@@ -118,6 +118,22 @@
              <div class="calculator"><a href="#" class="calculator_btn">калькулятор потолков</a></div>
              <div class="feedback"><a href="#" class="feedback_btn">оставить заявку на замер</a></div>
        </div>
+	
+	<!--Меню при прокрутке-->
+
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function() { 
+                if ($(document).scrollTop() > 50) { 
+                    $(".menu, .calculator, .feedback").css("background-color", "#000"); 
+                } else {
+                $(".menu, .calculator, .feedback").css("background-color", "rgba(0, 0, 0, 0.3)");
+            }
+            });
+        });
+    </script>
+	
+	
        <!--Слайдер -->
         <div id="slider" class="sl-slider-wrapper">
 
@@ -712,19 +728,7 @@ anime.timeline({loop: true})
     }
     </script>
     
-<!--Меню при прокрутке-->
 
-    <script>
-        $(document).ready(function(){
-            $(window).scroll(function() { 
-                if ($(document).scrollTop() > 50) { 
-                    $(".menu, .calculator, .feedback").css("background-color", "#000"); 
-                } else {
-                $(".menu, .calculator, .feedback").css("background-color", "rgba(0, 0, 0, 0.3)");
-            }
-            });
-        });
-    </script>
 
 
 

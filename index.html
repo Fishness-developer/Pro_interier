@@ -119,15 +119,10 @@
 	<!--Меню при прокрутке-->
 
     <script>
-        $(document).ready(function(){
-            $(window).scroll(function() { 
-                if ($(document).scrollTop() > 50) { 
-                    $("div.menu, .calculator, .feedback").css("background-color", "black"); 
-                } else {
-                $(".menu, .calculator, .feedback").css("background-color", "rgba(0, 0, 0, 0.3)");
-            }
-            });
-        });
+       window.onscroll = function() {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  document.getElementById('.menu').style.backgroundColor= scrolled==0?"red":"blue";
+
     </script>
 	
 	 <div class="block_04">

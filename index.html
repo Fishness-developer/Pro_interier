@@ -117,12 +117,7 @@
 	
 	<!--Меню при прокрутке-->
 
-    <script>
-       window.onscroll = function() {
-  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-  document.getElementById('.menu').style.backgroundColor= scrolled==0?"red":"blue";
-
-    </script>
+   
 	
 	 <div class="block_04">
             <div class="container">
@@ -275,7 +270,12 @@
 		
     
 
+ <script>
+       window.onscroll = function() {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  document.getElementById('.menu').style.backgroundColor= scrolled==0?"red":"blue";
 
+    </script>
 
 
     </body>
